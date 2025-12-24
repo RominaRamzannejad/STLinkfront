@@ -22,12 +22,14 @@ import Wallets from "../pages/Wallets";
 import Withdraw from "../pages/withdraw";
 import Devices from "../pages/components/devices";
 import NewsAndBlog from "../pages/NewsAndBlog";
+import LandingPage from "../pages/Landing";
 
 
 export default () =>
 
   <Routes>
     <Route path="/" element={<Home />} />
+    <Route path="/landing" element={<LandingPage/>} />
     <Route path="/dashboard" element={<Dashboard />} />
     <Route path="/withdraw" element={<Withdraw />} />
     <Route path="/wallets" element={<Wallets />} />
