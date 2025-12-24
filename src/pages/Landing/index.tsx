@@ -1,10 +1,11 @@
 import React from 'react'
-import bg from '../../../public/images/landing-page/bg.jpeg'
+import bg from '../../../public/images/landing-page/bg.jpg'
+import HeroSection from './components/HeroSection/HeroSection'
 
 const LandingPage = () => {
     return (
         <div>
-            {/* <img src="../../../public/images/landing-page/bg.jpg" className='w-full h-320'/> */}
+            <HeroSection/>
         </div>
     )
 }

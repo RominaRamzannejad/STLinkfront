@@ -4,10 +4,27 @@ import Layout from "./components/layout";
 import Router from "./Router/Router";
 
 function App() {
-
-
   return (
-    // <ConfigProvider
+    
+    <Layout >
+      <Router />
+    </Layout>
+    // </ConfigProvider>
+  );
+}
+
+export default App;
+
+
+
+
+
+
+
+
+
+
+// <ConfigProvider
     //   theme={{
     //     components: {
     //       Modal: {
@@ -36,11 +53,3 @@ function App() {
     //     },
     //   }}
     // >
-    <Layout >
-      <Router />
-    </Layout>
-    // </ConfigProvider>
-  );
-}
-
-export default App;
