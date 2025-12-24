@@ -22,7 +22,6 @@ import Wallets from "../pages/Wallets";
 import Withdraw from "../pages/withdraw";
 import Devices from "../pages/components/devices";
 import NewsAndBlog from "../pages/NewsAndBlog";
- 
 
 
 export default () =>
