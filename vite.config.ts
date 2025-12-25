@@ -2,7 +2,6 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import basicSsl from '@vitejs/plugin-basic-ssl'
 import svgr from "vite-plugin-svgr"
-import Terminal from "vite-plugin-terminal";
 
 export default defineConfig({
   plugins: [

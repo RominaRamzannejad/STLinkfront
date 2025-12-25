@@ -6,7 +6,7 @@ const HeroSectionTexts = () => {
             {/* title */}
             <h1 className='text-white relative top-20 left-20 ml-10 h-20 overflow-hidden text-6xl'>Compute smarter, earn stronger!</h1>
             {/* describe */}
-            <h3 className='text-white relative top-8 left-20 ml-16'>ComputingComputingComputingComputingComputingComputingComputingComputingComputing</h3>
+            <h3 className='text-white absolute top-10 mt-40 left-60'>Optimized mining performance designed for those who demand more.</h3>
         </div>
     )
 }

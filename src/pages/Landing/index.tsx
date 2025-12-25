@@ -1,11 +1,12 @@
 import React from 'react'
-import bg from '../../../public/images/landing-page/bg.jpg'
-import HeroSection from './components/HeroSection/HeroSection'
+import HeroSection from './components/HeroSection/HeroSection'  
+import WhyUs from './components/WhyUs'
 
 const LandingPage = () => {
     return (
-        <div>
+        <div className='flex flex-col justify-center'>
             <HeroSection/>
+            <WhyUs/>
         </div>
     )
 }
